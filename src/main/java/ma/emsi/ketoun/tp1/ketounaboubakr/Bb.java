@@ -224,6 +224,12 @@ public class Bb implements Serializable {
                     are you tell them the average price of a meal.
                     """;
             this.listeRolesSysteme.add(new SelectItem(role, "Guide touristique"));
+
+            role = """
+                    Your are a code compiler. If the user types a code you have to check if he has missing brackets or closing tags,
+                    you tell them where they made a mistake if the code is correct you tell them .
+                    """;
+            this.listeRolesSysteme.add(new SelectItem(role, "Code Tester"));
         }
 
         return this.listeRolesSysteme;

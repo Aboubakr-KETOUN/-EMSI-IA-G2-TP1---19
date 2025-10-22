@@ -15,6 +15,7 @@ async function copyToClipboard(idTextArea) {
 
 /* Effacer la dernière question et la dernière réponse */
 function toutEffacer() {
+    console.log('touteffecer called')
     document.getElementById("form:question").value = "";
     document.getElementById("form:reponse").value = "";
 }
