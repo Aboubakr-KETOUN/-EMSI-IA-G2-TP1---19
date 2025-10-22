@@ -1,4 +1,4 @@
-package ma.emsi.ketoun.tp1.tp1ketounaboubakr;
+package ma.emsi.ketoun.tp1.ketounaboubakr;
 
 import java.io.*;
 
